@@ -57,3 +57,12 @@ average number of patients: 36.0
 # Authors and Reference
 * Ruitao Lin (ruitaolin@gmail.com) and Guosheng Yin (gyin@hku.hk)
 * The R codes were adapted based on the codes written by Suyu Liu and Ying Yuan.
+
+* Ivanova A, Flournoy N, Chung Y. Cumulative cohort design for dose finding. J Stat Plan Inference 2007; 137: 2316–2327.
+* Ji Y, Liu P, Li Y, et al. A modified toxicity probability interval method for dose-finding trials. Clin Trials 2010; 7: 653–663.
+* Lin R, Yin G. Uniformly most powerful Bayesian interval design for phase I dose-Finding trials.
+* Liu S, Yuan Y. Bayesian optimal interval designs for phase I clinical trials. J R Stat Soc Ser C 2015; 64: 507–523.
+* Yan F, Mandrekar SJ and Yuan Y. Keyboard: A Novel Bayesian toxicity probability interval design for phase I clinical trials. Clin Cancer Res 2017; 23: 3994–4003
+
+
+
