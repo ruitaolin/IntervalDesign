@@ -41,7 +41,7 @@ Escalate if # of DLT <=    0 1 2  2  3  4  5  5  6  7  8  9
 * If we need to generate the operating characteristics of the UMPBI design based on the scenario ```p.true<-c(0.08,0.10,0.20,0.30,0.45,0.60)```, then we can use the ```get.oc()``` function. 
 ```rscript
 p.true<-c(0.08,0.10,0.20,0.30,0.45,0.60)
-get.oc(target=0.3,p.true=p.truen,cohort=12,cohortsize=3,design=5,cutoff.eli=0.95)
+get.oc(target=0.3,p.true=p.true,ncohort=12,cohortsize=3,design=5,cutoff.eli=0.95)
 ```
 The output is given by 
 ```rscript
