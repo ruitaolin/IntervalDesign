@@ -54,7 +54,7 @@ number of toxicity observed at each dose level:
 average number of toxicties: 8.5 
 average number of patients: 36.0 
 ```
-# Authors and Reference
+# Authors and References
 * Ruitao Lin (ruitaolin@gmail.com) and Guosheng Yin (gyin@hku.hk)
 * The R codes were adapted based on the codes written by Suyu Liu and Ying Yuan.
 
