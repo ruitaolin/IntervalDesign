@@ -8,7 +8,7 @@ The primary objective of phase I oncology trials is to identify the maximum tole
 The repository includes two files:
 * get.boundary.R: The file contains ```get.boundary()``` function to generate escalation and de-escalation boundaries for several interval designs including the CCD, mTPI, BOIN, Keyboard and UMPBI designs.
 ```rscript
-get.boundary(target, ncohort, cohortsize,design,cutoff.eli)
+get.boundary(target, ncohort, cohortsize, design, cutoff.eli)
 ```
 * get.oc.R: The file contains ```get.boundary()``` function to conduct simulation studies and generate operating characteristics for several interval designs including the CCD, mTPI, BOIN, Keyboard and UMPBI designs.
 ```rscript
