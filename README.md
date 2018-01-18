@@ -15,7 +15,7 @@ get.boundary(target, ncohort, cohortsize,design,cutoff.eli)
 get.oc(target, p.true, ncohort, cohortsize, startdose, design, cutoff.eli, ntrial)
 ```
 
-#Inputs
+# Inputs
 * ```target```: The target toxicity probability, e.g., ```target<-0.30```.
 * ```p.true```: The true toxicity rate for each dose, e.g., ```p.true<-c(0.1,0.2,0.3,0.4,0.5,0.6)```.
 * ```ncohort```: The total number of cohorts.
@@ -25,7 +25,7 @@ get.oc(target, p.true, ncohort, cohortsize, startdose, design, cutoff.eli, ntria
 * ```cutoff.eli```: The cutoff to eliminate the overly toxic dose for safety monitoring, e.g., ```cutoff.eli<-0.95```.
 * ```ntrial```: The number of simulated trials, e.g., ```ntrial<-1000```.
 
-#Example
+# Example
 We take the UMPBI design as an example, i.e., ```design<-5```. Suppose the target toxicity rate is 0.3, the number of cohorts is 12 with three patients in a cohort, and the elimination boundary is set at 0.95. 
 * We generate the escalation and de-escalation boundaries for the UMPBI design.
 ```rscript
