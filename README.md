@@ -22,6 +22,21 @@ get.oc(target, p.true, ncohort, cohortsize, startdose, design, cutoff.eli, ntria
 * ```cohortsize```: The cohort size.
 * ```startdose```: The starting dose of the trial
 * ```design```: The specific interval design. 1 is the CCD design, 2 is the mTPI design, 3 is the BOIN design, 4 is the Keyboard design (or mTPI2 design), 5 is the UMPBI design. Default values for design parameters of these designs are utilized.
-* ```cutoff.eli```: The cutoff to eliminate the overly toxic dose for safety monitoring ```cutoff.eli<-0.95```.
-* ```ntrial```: The number of simulated trials ```ntrial<-1000```.
+* ```cutoff.eli```: The cutoff to eliminate the overly toxic dose for safety monitoring, e.g., ```cutoff.eli<-0.95```.
+* ```ntrial```: The number of simulated trials, e.g., ```ntrial<-1000```.
+
+#Example
+We take the UMPBI design as an example, i.e., ```design<-5```. Suppose the target toxicity rate is 0.3, the number of cohorts is 12 with three patients in a cohort, and the elimination boundary is set at 0.95. 
+* We generate the escalation and de-escalation boundaries for the UMPBI design.
+```rscript
+ get.boundary(target=0.3,ncohort=12,cohortsize=3,design=5,cutoff.eli=0.95)
+```
+The output is given by 
+```rscript
+Number of patients treated 3 6 9 12 15 18 21 24 27 30 33 36
+Eliminate if # of DLT >=   3 4 5  7  8  9 10 11 12 14 15 16
+Deescalate if # of DLT >=  2 3 4  5  6  7  8  9 10 11 12 13
+Escalate if # of DLT <=    0 1 2  2  3  4  5  5  6  7  8  9
+```
+
 
