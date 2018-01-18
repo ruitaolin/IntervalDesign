@@ -58,6 +58,7 @@ average number of patients: 36.0
 * Ruitao Lin (ruitaolin@gmail.com) and Guosheng Yin (gyin@hku.hk)
 * The R codes were adapted based on the codes written by Suyu Liu and Ying Yuan.
 
+* Guo W, Wang SJ, Yang S, et al. A Bayesian interval dose-finding design addressing Ockham’s razor: mTPI-2. Contemp Clin Trials 2017; 58: 23–33.
 * Ivanova A, Flournoy N, Chung Y. Cumulative cohort design for dose finding. J Stat Plan Inference 2007; 137: 2316–2327.
 * Ji Y, Liu P, Li Y, et al. A modified toxicity probability interval method for dose-finding trials. Clin Trials 2010; 7: 653–663.
 * Lin R, Yin G. Uniformly most powerful Bayesian interval design for phase I dose-Finding trials.
