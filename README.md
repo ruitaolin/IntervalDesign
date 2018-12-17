@@ -55,7 +55,7 @@ average number of toxicties: 8.5
 average number of patients: 36.0 
 ```
 # Authors and References
-* Ruitao Lin (ruitaolin@gmail.com) and Guosheng Yin (gyin@hku.hk)
+* Ruitao Lin (ruitaolin@gmail.com)
 * The R codes were adapted based on the codes written by Suyu Liu and Ying Yuan.
 
 * Guo W, Wang SJ, Yang S, et al. A Bayesian interval dose-finding design addressing Ockham’s razor: mTPI-2. Contemp Clin Trials 2017; 58: 23–33.
